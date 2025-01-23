@@ -1,4 +1,4 @@
-# nrfutil toolchain sourcer
+# nrfutil toolchain selector
 
 Tool for using a nRF Connect SDK toolchain managed by nrfutil in the main shell.
 
