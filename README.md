@@ -18,6 +18,8 @@ nuts(){
         then
             echo Toolchain version $1 is already in use.
         else
+            unset PYTHONPATH
+            unset PYTHONHOME
             echo Changing toolchain $NCS_TOOLCHAIN_VERSION to $1.
             source <(python <path_to_nuts.py> $1)
         fi
